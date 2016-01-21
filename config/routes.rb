@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  resources :comments
   resources :blogposts
   root 'blogposts#index'
   # The priority is based upon order of creation: first created -> highest priority.
